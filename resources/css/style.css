@@ -24,6 +24,7 @@ header {
     background-image: url(../images/glasses-bg.png);
     background-position: center;
     background-size: cover;
+    padding-top: 1rem;
 }
 
 .header-container {
@@ -36,13 +37,19 @@ header {
 
 .nav-bar {
    background: cadetblue;
-   margin-top: 1rem;
+   color: white;
    display: flex;
    justify-content: space-between;
 }
 
 .logo-header img {
     height: 1.5rem;
+    margin-left: 2rem;
+}
+
+.logo-header span {
+    margin-left: 1rem;
+    font-size: 1rem;
 }
 
 .mobile-nav {
@@ -57,10 +64,29 @@ header {
 .main-nav ul {
     list-style: none;
     display: flex;
+    margin-right: 2rem;
 }
 
+.main-nav li {
+    margin-left: 2rem;
+}
 
+.slogan {
+    text-align: right;
+    margin-right: -2rem;
+}
 
+.slogan span {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size:2rem;
+    line-height: 1.2;
+    background-color: white;
+    padding: 1.5rem 5rem;
+    margin-top: 10rem;
+    display: inline-block;
+
+}
 
 
 
