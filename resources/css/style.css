@@ -4,6 +4,63 @@
    [    Base Styles    ]
    --------------------- */
 
-   html {
+   html, 
+   body {
        background: gray;
+       font-size: 18px;
+       line-height: 1.4;
+       font-family: Helvetica;
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       /* width: 100px; */
    }
+
+
+   /* ---------------------
+   [    Header Styles    ]
+   --------------------- */
+.header-container {
+    height: 30rem;
+    background-image: url(../images/glasses-bg.png);
+    width: 960px;
+
+}
+
+
+
+
+.nav-bar {
+   background: cadetblue;
+   margin-top: 1rem;
+   
+}
+
+.logo-header {
+    display: flex;
+    padding: 0 auto;
+}
+
+
+
+
+
+
+
+   /* ---------------------
+   [    Main Styles    ]
+   --------------------- */
+
+
+
+
+   /* ---------------------
+   [    Footer Styles    ]
+   --------------------- */
+
+
+
+
+   /* ---------------------
+   [    Media - 769   ]
+   --------------------- */
