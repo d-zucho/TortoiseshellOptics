@@ -6,41 +6,58 @@
 
    html, 
    body {
-       background: gray;
+       /* background: gray; */
        font-size: 18px;
        line-height: 1.4;
        font-family: Helvetica;
        box-sizing: border-box;
        margin: 0;
        padding: 0;
-       /* width: 100px; */
+       width: 100%;
    }
 
 
    /* ---------------------
    [    Header Styles    ]
    --------------------- */
-.header-container {
-    height: 30rem;
+header {
     background-image: url(../images/glasses-bg.png);
-    width: 960px;
-
+    background-position: center;
+    background-size: cover;
 }
 
+.header-container {
+    height: 30rem;
+    width: 960px;
+    margin: 0 auto;
 
+}
 
 
 .nav-bar {
    background: cadetblue;
    margin-top: 1rem;
-   
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo-header img {
+    height: 1.5rem;
+}
+
+.mobile-nav {
+    display: none;
 }
 
 .logo-header {
     display: flex;
-    padding: 0 auto;
+    align-items: center;
 }
 
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
 
 
 
