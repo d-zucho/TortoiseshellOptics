@@ -20,6 +20,7 @@
    /* ---------------------
    [    Header Styles    ]
    --------------------- */
+   
 header {
     background-image: url(../images/glasses-bg.png);
     background-position: center;
@@ -91,17 +92,99 @@ header {
 
 
    /* ---------------------
-   [    Main Styles    ]
+   [    Banner Styles    ]
    --------------------- */
 
+main {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 3rem;
+    width: 5rem;
+    height: 8rem;
+}
+
+.exams img {
+    width: 3.5rem;
+}
+
+.custom-fittings img, 
+.fast-delivery img {
+    width: 5rem;
+}
+
+   /* ---------------------
+   [    Details Styles    ]
+   --------------------- */
+
+.details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
 
 
+.details h3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: cadetblue;
+    color: white;
+    width: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+}
+
+.philosophy {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-right: 2.5%;
+}
+
+.appointments {
+    display: flex;
+    flex-direction: column;
+    width: 35%;  
+    margin-left: 2.5%;
+}
+
+.details p {
+    margin-top: 1rem;
+}
 
    /* ---------------------
    [    Footer Styles    ]
    --------------------- */
 
+footer {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+}
 
+footer img {
+       margin: 4rem 1rem 4rem 4rem;
+       height: 1.5rem;
+   }
 
 
    /* ---------------------
