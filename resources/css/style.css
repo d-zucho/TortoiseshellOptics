@@ -226,6 +226,11 @@ footer img {
        }
    }
 
+
+   /* ---------------------
+   [    Media - 630px   ]
+   --------------------- */
+
    @media screen and (max-width: 630px) {
         html, body, main {
            width: 100%;
@@ -236,6 +241,7 @@ footer img {
             background-position: 20%;
             background-size: cover;
             padding-top: 0;
+            margin-bottom: 3.77rem;
        }
 
        .mobile-nav {
@@ -286,5 +292,64 @@ footer img {
            justify-content: center;
            flex-direction: column;
            align-items: center;
+       }
+
+       .exams {
+           margin-top: 0;
+       }
+
+       .info  {
+           margin: 0;
+           justify-content: center;
+       }
+
+       .info span {
+           margin-top: 1.5rem;
+       }
+
+       .custom-fittings,
+       .fast-delivery {
+           margin-top: 1.54rem;
+       }
+
+       .fast-delivery {
+           margin-bottom: 3.77rem;
+       }
+
+       .details {
+           flex-direction: column;
+           
+       }
+
+       .philosophy,
+       .appointments {
+           width: 100%;
+           margin-left: 0;
+       }
+
+       .details h3 {
+           width: 100%;
+           text-align: center;
+           margin-left: 0;
+           margin-right: 0;
+           padding-left: 0;
+       }
+
+       .details p {
+           margin-bottom: 4rem;
+           margin-top: 1rem;
+       }
+
+       footer {
+           width: 100%;
+           align-items: center;
+       }
+
+       footer img {
+           margin: 4rem auto;
+       }
+
+       .copyright {
+           display: none;
        }
    }
