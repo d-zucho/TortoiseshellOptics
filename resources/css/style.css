@@ -43,6 +43,8 @@ header {
    justify-content: space-between;
 }
 
+
+
 .logo-header img {
     height: 1.5rem;
     margin-left: 2rem;
@@ -53,9 +55,6 @@ header {
     font-size: 1rem;
 }
 
-.mobile-nav {
-    display: none;
-}
 
 .logo-header {
     display: flex;
@@ -208,6 +207,10 @@ footer img {
            height: 22rem; 
        }
 
+       .mobile-nav {
+        display: none;
+    }
+
        .slogan {
            margin-right: 2rem;
        }
@@ -223,6 +226,65 @@ footer img {
        }
    }
 
-   @media screen and (max-width: 620px) {
-       
+   @media screen and (max-width: 630px) {
+        html, body, main {
+           width: 100%;
+       }
+    
+        header {
+            background-image: url(../images/glasses-bg.png);
+            background-position: 20%;
+            background-size: cover;
+            padding-top: 0;
+       }
+
+       .mobile-nav {
+           display: inline-block;
+           font-size: 1rem;
+           padding: 1rem;
+       }
+
+       .main-nav {
+           display: none;
+       }
+
+       .header-container {
+           width: 100%;
+           height: 17rem;
+       }
+
+       .logo-header img {
+           height: 1.5rem;
+       }
+
+       .logo-header span {
+           display: none;
+       }
+
+       .slogan {
+           margin-top: 9rem;
+           display: block;
+           width: 100%;
+           text-align: center;
+       }
+
+       .slogan span {
+           font-size: 1rem;
+           padding-top: 1rem;
+           padding-bottom: 1rem;
+           display: block;
+      
+       }
+
+
+       main {
+           width: 100%;
+       }
+
+       .banner {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center;
+       }
    }
